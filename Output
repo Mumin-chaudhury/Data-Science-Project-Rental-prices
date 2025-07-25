@@ -6,3 +6,11 @@ Children_are_welcome    0.092834
 Furniture               0.025320
 Pets_allowed            0.012106
 
+
+My justifications 
+
+Renovation (54.8%): This was the most significant predictor among discrete features. Renovated apartments are typically in better condition, offer updated amenities, and are more desirable, justifying their higher rental rates. 
+
+Balcony (32.1%): Properties with balconies offer additional space and lifestyle benefits, especially in urban areas. This explains their strong contribution to rental price. 
+
+Children_are_welcome (9.3%): This suggests the apartment accommodates families, often indicating larger units with more amenities and therefore higher prices. 
