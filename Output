@@ -1,0 +1,8 @@
+Feature importance output in correlation to the increase of rental price DF:
+
+ Renovation              0.548456
+Balcony                 0.321284
+Children_are_welcome    0.092834
+Furniture               0.025320
+Pets_allowed            0.012106
+
