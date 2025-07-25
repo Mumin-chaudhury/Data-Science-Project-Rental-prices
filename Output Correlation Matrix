@@ -1,0 +1,29 @@
+Approach: The analysis calculated the Pearson correlation coefficient between the variables using Python's pandas and visualized it with a Seaborn heatmap. Before computing correlations, the 'Duration' column was mapped from categorical ('monthly', 'daily') to numeric values (0 for monthly, 1 for daily). All relevant columns (Number_of_rooms, Price, and Duration) were converted to numeric types, and missing values were dropped to ensure valid correlation calculations. 
+
+Correlation Results: 
+
+Relationship 
+
+Correlation Coefficient 
+
+Interpretation 
+
+Rooms ↔ Price 
+
+0.003 
+
+No meaningful correlation 
+
+Rooms ↔ Duration 
+
+-0.167 
+
+Weak negative correlation 
+
+Price ↔ Duration 
+
+-0.003 
+
+No meaningful correlation 
+
+Interpretation: There is no significant correlation between number of rooms and price. This suggests that prices in this dataset may be influenced more by other features (e.g., location, amenities) than room count. The negative correlation between number of rooms and duration indicates that apartments with more rooms tend to be listed for longer durations (e.g., monthly), while smaller units may be offered on shorter (daily) terms. There is virtually no correlation between price and duration, suggesting that duration type (monthly/daily) is not a strong standalone predictor of rental price. 
