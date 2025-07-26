@@ -1,0 +1,9 @@
+Mean Squared Error (MSE): 328,474,39774.12 
+
+R-squared (R²): 0.83 
+
+Interpretation of the Visualization: The scatter plot compares actual rent prices (x-axis) to predicted prices (y-axis). The red dashed line represents a perfect prediction line (where predicted = actual), while the blue dots represent actual data points. Most points are spread below the red line, indicating that the model tends to underpredict the rent prices for more expensive apartments. However, predictions for lower to mid-priced apartments are relatively consistent and closer to the ideal line. 
+
+Final Analysis: An R² of 0.83 means that the model explains 83% of the variance in apartment prices, representing a strong level of predictive performance for a linear model. The MSE is quite large, which is expected due to the scale of the rent prices (often in the hundreds of thousands). The model is doing a good job at capturing pricing trends but shows some limitations with high-end listings. 
+
+Conclusion: The linear regression model performs very well given the data, achieving a high R² score. To potentially improve it further, consider using non-linear models like Random Forests or Gradient Boosted Trees, or adding engineered features such as square footage, distance to city center, or apartment age and floor level. 
