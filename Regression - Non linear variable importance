@@ -1,0 +1,11 @@
+A Decision Tree Regression model was used to determine how well different features (variables) in the dataset predict rental Price. This method is effective for identifying variable importance in non-linear relationships without needing scaling or distribution assumptions.
+
+s Address a Significant Predictor? Yes — Address accounted for approximately 17.7% of the predictive power in the model. This suggests location plays a meaningful role in determining rent prices, likely due to neighborhood amenities, proximity to transport, or safety. 
+
+Top 3 Additional Predictors of High Price: Besides Address, the following attributes were most associated with high rental prices: 
+
+Renovation (44.7%) — Renovated apartments typically offer modern fittings, better aesthetics, and improved functionality, all of which justify higher rent. 
+
+Balcony (23.3%) — A balcony adds private outdoor space and improves appeal, especially in urban environments. This consistently correlates with higher-priced listings. 
+
+Number_of_rooms (9.7%) — More rooms generally indicate larger spaces, suitable for families or shared rentals, naturally leading to higher rents. 
